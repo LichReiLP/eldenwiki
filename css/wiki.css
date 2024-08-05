@@ -1,0 +1,96 @@
+@charset "utf-8";
+
+/*Cabeçalho da página*/
+body{
+	justify-content: center;
+	max-width: 100%;
+    margin-top: 0;
+}
+#nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+	top: 0;
+	left: 0;
+	height: 90px;
+	width: 100%;
+	background: #173f3f;
+	padding-left: 5px;
+    border: 100%;
+}
+li a{
+	text-decoration: none;
+	color: #e2c37a;
+    margin-right: 50px;
+}
+li a:hover{
+    text-decoration: underline;
+}
+#logo{
+	list-style: none;
+	margin-right: 40px;
+}
+#logo:hover, .dados:hover{
+	transform: scale(1.2);
+	transition: 0.3s;
+}
+.dados{
+	padding: 5px;
+	list-style: none;
+    font-family: 'PT Serif', serif;
+}
+
+/* MAIN */
+.sinopse{
+	width: 50%;
+	float: left;
+	font-family: 'PT Serif', serif;
+	padding-left: 20px;
+}
+aside{
+	width: 40%;
+	float: right;
+}
+aside img{
+	width: 350px;
+	padding-top: 0;
+	margin-top: 0;
+	border: 2px solid black;
+	box-shadow: 2px 2px 10px black;
+
+}
+
+.person_art{
+	width: 100%;
+	float: left;
+	font-family: 'PT Serif', serif;
+	padding-left: 8px;
+	display: flex;
+	flex-flow: row wrap;
+}
+.person{
+	max-width: 200px;
+	flex: 1 1 270px;
+	margin: 25px;
+}
+.person img{
+	width: 200px;
+	max-width: 100%;
+	height: 358px;
+	display: block;
+	padding-top: 0;
+	margin-top: 0;
+	border: 2px solid black;
+	box-shadow: 2px 2px 10px black;
+}
+.negrito{
+	font-weight: bold;
+}
+.person p{
+	text-align: center;
+}
+
+#criador{
+	width: 45%;
+}
